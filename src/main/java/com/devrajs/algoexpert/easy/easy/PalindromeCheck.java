@@ -1,4 +1,4 @@
-package com.devrajs.algoexpert.easy;
+package com.devrajs.algoexpert.easy.easy;
 
 public class PalindromeCheck {
     public static boolean isPalindrome(String str) {

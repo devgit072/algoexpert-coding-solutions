@@ -1,4 +1,4 @@
-package com.devrajs.algoexpert.easy;
+package com.devrajs.algoexpert.easy.easy;
 
 import java.util.ArrayList;
 import java.util.HashMap;

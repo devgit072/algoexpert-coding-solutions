@@ -1,4 +1,4 @@
-package com.devrajs.algoexpert.easy;
+package com.devrajs.algoexpert.easy.easy;
 
 public class InsertionSort {
     public static int[] insertionSort(int[] array) {

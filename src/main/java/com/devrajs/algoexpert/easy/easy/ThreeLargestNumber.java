@@ -1,4 +1,4 @@
-package com.devrajs.algoexpert.easy;
+package com.devrajs.algoexpert.easy.easy;
 
 public class ThreeLargestNumber {
     public static int[] findThreeLargestNumbers(int[] array) {
