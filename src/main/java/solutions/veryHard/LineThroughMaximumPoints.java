@@ -1,7 +1,9 @@
 package solutions.veryHard;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * In order to solve any algorithminc question related to points and line we have to know two things:
@@ -34,6 +36,7 @@ public class LineThroughMaximumPoints {
                 equationList.add(equation);
             }
         }
+
         for (LineEquation equation : equationList) {
             int count = 0;
             List<Integer[]> listOfPoints = new ArrayList<>();
@@ -47,10 +50,6 @@ public class LineThroughMaximumPoints {
                     }
                 }
             }
-        }
-
-        for (Integer[] p : maxPoints) {
-            System.out.printf("(%d, %d)    ", p[0], p[1]);
         }
         return maxCount;
     }
